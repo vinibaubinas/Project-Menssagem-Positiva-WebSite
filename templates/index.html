@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Autoestima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="{{ url_for('static', filename='img.jpg') }}" alt="Imagem 1">
+            <img src="{{ url_for('static', filename='img2.jpg') }}" alt="Imagem 2">
+            <img src="{{ url_for('static', filename='img3.jpg') }}" alt="Imagem 3">
+            <img src="{{ url_for('static', filename='img4.jpg') }}" alt="Imagem 4">
+            <img src="{{ url_for('static', filename='img5.jpg') }}" alt="Imagem 5">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Receba uma mensagem positiva!</h1>
+        <form id="autoestima-form" class="form">
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <button type="submit" class="btn">Obter mensagem positiva</button>
+        </form>
+        <p id="mensagem-positiva" class="mensagem-positiva"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+/* styles.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mensagem-positiva {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.mostrar {
+    opacity: 1;
+}
+
+/* styles.css */
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição de 0.3 segundos à cor de fundo */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+/* styles.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    opacity: 0; /* Define a opacidade inicial para 0 */
+    animation: fadeIn 1s forwards; /* Adiciona a animação fadeIn com duração de 1 segundo */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Restante do seu CSS permanece inalterado */
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fadeInText 4s forwards;
+}
+
+@keyframes fadeInText {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+/* styles.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px; /* Aumentei a distância entre os elementos */
+    place-items: center;
+    position: absolute;
+    top: 50%; /* Ajustei a posição vertical para um pouco mais abaixo */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 700px; /* Aumentei a largura da caixa */
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fadeInText 4s forwards;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mensagem-positiva {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.mostrar {
+    opacity: 1;
+}
+
+@keyframes fadeInText {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
