@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\W11\Desktop\Projeto de detector de moviemtos\venv"
+VIRTUAL_ENV="C:\Users\W11\Desktop\Projeto de Mensagens Positivas\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
